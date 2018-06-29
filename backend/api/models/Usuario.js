@@ -6,7 +6,7 @@
  */
 
 module.exports = {
-
+  datastore: 'mysqlAzure',
   attributes: {
     nombre: {
       type: 'string',
@@ -21,6 +21,5 @@ module.exports = {
       via: 'usuarioIdFK'
     }
   },
-
 };
 

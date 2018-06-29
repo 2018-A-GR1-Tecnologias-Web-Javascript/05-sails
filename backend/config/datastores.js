@@ -35,7 +35,8 @@ module.exports.datastores = {
   },
   mysqlAzure: {
     adapter: 'sails-mysql',
-    url: 'mysql://profesor@web2018agr2:Javascript1@web2018agr2.mysql.database.azure.com:3306/web',
+    insecureAuth: true,
+    url: 'mysql://root:root@localhost:3306/javascript',
   }
 
 
